@@ -1,0 +1,86 @@
+body {
+    padding:0;
+    margin:0;
+    font-family: 'Nosifer', cursive;
+    color: green;
+}
+
+ul {
+    padding:0;
+    margin:0;
+}
+
+li {
+    padding:16px;
+    border: 1px solid black;
+    color: green;
+}
+
+li:hover {
+    background-color: rgb(59, 10, 28);
+    color:royalblue
+}
+
+.navlinks {
+    background-color: rgb(99, 12, 12);
+    color: lightgray;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.imagebanner {
+    background-image: url("Images/test.png");
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+    background-color: white;
+}
+
+.introduction {
+    text-align: center;
+    color: green;
+    font-size: 1.25rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.stype {
+    text-align: center;
+    margin: 32px;
+}
+
+@media screen and (min-width: 700px) {
+ul {
+    text-align: left;
+}
+
+li {
+    display: inline-block;
+    border-bottom: 0px;
+    border-left: 1px solid black;
+}
+
+.stype {
+    width: 29%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navlinks {
+    background-color: rgb(18, 12, 99);
+    color: lightgray;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+li:hover {
+    background-color: rgb(5, 35, 123);
+    color:rgb(197, 18, 54)
+}
+}
